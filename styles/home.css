@@ -48,6 +48,10 @@ padding: 90px 0;
     margin: 0 15px;
   }
 
+  .convenios {
+    margin-bottom: 100px;
+  }
+
   .convenios section {
     max-width: 1100px;
     margin: 0 auto;
@@ -59,3 +63,61 @@ padding: 90px 0;
     text-transform: uppercase;
   }
 
+  .seu-coracao {
+    background-color: #ededed;
+    padding: 90px 0;
+  }
+
+  .seu-coracao section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .contato {
+    padding: 90px;
+  }
+
+  .contato section h2 {
+    margin-bottom: 50px;
+  }
+
+  .contato section {
+    min-width: 900px;
+    margin: 0 auto;
+  }
+
+  .contato section span {
+    display: flex;
+  }
+
+  .contato section p {
+    font-style: 22px;
+  }
+
+  .contato section span img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .contato form {
+    margin-top: 50px;
+  }
+
+  localizacao section {
+    margin: 0 auto;
+  }
+
+  .footer {
+    background-color: #8d8d8d;
+    padding: 0;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer p {
+    color: white;
+  }
