@@ -7,3 +7,43 @@
   height: 600px;
   background-color: #cccaca;
 }
+
+.especialidades {
+padding: 90px 0;
+}
+
+.especialidades section {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.especialidades section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.especialidades section .card {
+  margin: 0 15px;
+}
+
+/*  */
+
+.equipe {
+  padding: 90px 0;
+  }
+  
+  .equipe section {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .equipe section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  
+  .equipe section .card {
+    margin: 0 15px;
+  }
