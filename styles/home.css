@@ -47,3 +47,15 @@ padding: 90px 0;
   .equipe section .card {
     margin: 0 15px;
   }
+
+  .convenios section {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .convenios section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+
