@@ -88,24 +88,79 @@ box-shadow: 0px 5px 20px rgba(0,0,0,.3);
 }
 
 /*  */
+.seu-coracao {
+  padding: 120px 0;
+}
+
+.seu-coracao section {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.seu-coracao section h2 {
+  font-weight: bold;
+  color: #294481;
+}
+
+.seu-coracao section button {
+  border: none;
+  padding: 20px;
+
+  text-transform: uperrcase;
+  background-color: #294481;
+  color: white;
+  border-radius: 8px;
+}
+
+.seu-coracao section img {
+  border-radius: 8px;
+}
+
+/*  */
 
 .equipe {
-  padding: 90px 0;
+  background-color: #294481;
   }
   
   .equipe section {
     max-width: 900px;
     margin: 0 auto;
   }
+
+  .equipe section .row {
+    padding: 200px 0;
+  }
   
   .equipe section h2 {
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 50px;
     text-transform: uppercase;
+    color: white;
   }
-  
-  .equipe section .card {
-    margin: 0 15px;
+
+  .equipe section h3 {
+    margin-top: 20px;
+  }
+
+  .equipe-img-wrapper {
+    padding: 20px;
+    background-color: white;
+
+    
+    margin: 0 auto;
+    margin-top: -180px;
+    border-radius: 50%;
+  }
+
+  .equipe-img-wrapper img {
+    border-radius: 50%;
+  }
+
+  .card-equipe {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.3);
   }
 
   .convenios {
@@ -115,6 +170,8 @@ box-shadow: 0px 5px 20px rgba(0,0,0,.3);
   .convenios section {
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 100px 0;
   }
 
   .convenios section h2 {
@@ -123,51 +180,39 @@ box-shadow: 0px 5px 20px rgba(0,0,0,.3);
     text-transform: uppercase;
   }
 
-  .seu-coracao {
-    background-color: #ededed;
-    padding: 90px 0;
+  .convenios section .swiper-slide {
+    background-color: white;
+
+    border-radius: 16px;
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.17);
   }
 
-  .seu-coracao img {
-    width: 800px;
-    height: 550px;
+  .convenios section .swiper-wrapper {
+    padding: 50px 0;
   }
 
-  .seu-coracao section {
-    max-width: 900px;
-    margin: 0 auto;
+  .convenios section .swiper-wrapper img {
+    border-radius: 8px;
   }
+
+
+
 
   .contato {
-    padding: 90px;
+    background-color: #294481;
+    padding: 120px 0;
   }
-
-  .contato section h2 {
-    margin-bottom: 50px;
-  }
-
+  
   .contato section {
-    min-width: 900px;
+    width: 900px;
     margin: 0 auto;
   }
-
-  .contato section span {
-    display: flex;
-  }
-
+  .contato section h2,
+  .contato section h3,
   .contato section p {
-    font-style: 22px;
+    color: white;
   }
 
-  .contato section span img {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-  }
-
-  .contato form {
-    margin-top: 50px;
-  }
 
   .localizacao {
     height: 400px;
@@ -176,16 +221,14 @@ box-shadow: 0px 5px 20px rgba(0,0,0,.3);
     block-size: cover;
   }
 
-  .footer {
-    background-color: #8d8d8d;
-    padding: 0;
-    height: 60px;
 
+  .footer section {
     display: flex;
-    align-items: center;
     justify-content: center;
-  }
-
-  .footer p {
+    align-items: center;
+    background-color: #294481;
     color: white;
+    padding: 10px;
+    
+    
   }
