@@ -1,30 +1,90 @@
-.nav {
-  height: 70px;
-  background-color: #ededed;
+.menu section {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+
+  padding: 20px 0;
+}
+
+.menu section img + img {
+  width: 348px;
+  height: 53px;
+}
+
+.img-left {
+height: 55px;
+max-width: 250px;
+}
+
+.img-right {
+margin-left: auto;
+max-width: 350px;
+height: 50px;
 }
 
 .header {
-  height: 600px;
-  background-color: #cccaca;
+  height: 500px;
+  background-image: url(../images/main.png);
+  background-size: cover;
+  background-position: left center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header section {
+  width: 900px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header h1 {
+  color: #294481;
+  font-size: 42px;
+  line-height: 1em;
+}
+
+.card img{
+  width: 115px;
+  height: 103px;
 }
 
 .especialidades {
 padding: 90px 0;
+background-color: #294481;
 }
 
 .especialidades section {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
+
+  margin-top: -150px;
 }
 
-.especialidades section h2 {
-  text-align: center;
-  margin-bottom: 50px;
+.especialidades section h3 {
+  color: #294481;
   text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .especialidades section .card {
   margin: 0 15px;
+}
+
+.especialidades .card-especialidades {
+background-color: white;
+padding: 20px;
+border-radius: 16px;
+box-shadow: 0px 5px 20px rgba(0,0,0,.3);
+}
+
+.especialidades .card-especialidades img {
+  width: 32%;
 }
 
 /*  */
@@ -34,7 +94,7 @@ padding: 90px 0;
   }
   
   .equipe section {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
   }
   
@@ -66,6 +126,11 @@ padding: 90px 0;
   .seu-coracao {
     background-color: #ededed;
     padding: 90px 0;
+  }
+
+  .seu-coracao img {
+    width: 800px;
+    height: 550px;
   }
 
   .seu-coracao section {
@@ -104,8 +169,11 @@ padding: 90px 0;
     margin-top: 50px;
   }
 
-  localizacao section {
-    margin: 0 auto;
+  .localizacao {
+    height: 400px;
+    background-image: url('../images/bg-map.png');
+    background-position: center center;
+    block-size: cover;
   }
 
   .footer {
